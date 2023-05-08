@@ -1,0 +1,49 @@
+body {
+    background: black;
+    margin:0;
+    padding: 0;
+    padding-top: 2em;
+    text-align: center;
+}
+
+body, button, textarea {
+    color: #2142d4;
+    font-family: 'Inter Tight', sans-serif;
+}
+
+div {
+    width: 70%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align:center;
+}
+
+textarea {
+    border: 3px solid black;
+    width: 90%;
+    margin: 0 auto;
+    outline: none;
+    height: 200px;
+    padding: 2em;
+}
+
+textarea:disabled {
+    background-color: #a5a2a2;
+}
